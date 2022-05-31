@@ -12,6 +12,12 @@ body {
     align-items: center;
 }
 
+.img-left {
+    display: block;
+    margin-right: auto;
+    width: 75%;
+}
+
 .title {
     letter-spacing: 0.3em;
 }
