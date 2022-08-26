@@ -22,6 +22,10 @@ body {
     letter-spacing: 0.3em;
 }
 
+.cursed {
+    height: 25vh;
+}
+
 .coucou {
     text-decoration: none;
     color: black;
