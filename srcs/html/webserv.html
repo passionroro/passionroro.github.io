@@ -24,14 +24,20 @@
         <p class="title">romain  hoarau</p>
     </div>
     <div class="projects">
-      <h2>documentation is in progress</h2>
-
-        <!-- <h2>webserv</h2>
-        <p>description</p>
-        <p>insert visualizing gif</p>
-        <h3>error management</h3>
-        <h3>source code</h3>
-        <p>if you're intrigued, you will find the source code of this project on my dedicated <a href="https://github.com/passionroro/42cursus-webserv" target="_blank">github page</a></p> -->
+      <h1>webserv</h1>
+      <p>the aim of the project is to recreate a web server in C++ 98. why not in C++ 23 ? because our school hates its students.</p>
+      <p>a web server is a computer software that handles requests and sends back a response.</p>
+      <p>think of this project like recreating nginx. for example, you can create different servers with different <code>server_names, port, address</code>.</p>
+      
+      <h2>example</h2>
+      <img src="../../assets/webserv-video.gif" alt="webserv-video" class="img-left">
+      <p>in the example above (sorry for the quality oops), you can see, on the right, a client (someone browsing the web) and on the left, the web server listening to requests and sending back responses.</p>
+      <p>I showcased some GET requests, a file upload with the POST method, and I also deleted the file with the DELETE method.</p>
+      <p>it has much more, like redirections and fastcgi, and everything can be customised with config files !</p>
+      
+      <h2>source code</h2>
+      <p>my role in this project was to do the parsing. the program takes as argument a JSON config file, so I basically had to do a JSON parser in C++ 98 🥲</p>
+      <p>if you're intrigued, you will find the source code of this project on my dedicated <a href="https://github.com/passionroro/42cursus-webserv" target="_blank">github page</a></p>
     </div>
     <br>
     
